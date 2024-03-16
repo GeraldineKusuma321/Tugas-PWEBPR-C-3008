@@ -1,0 +1,780 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.gambar {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.container{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 80px 0px;
+}
+.flex2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+.flex1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+.Bar{
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  height: 70px;
+  background-color: #D9D9D9;
+  z-index: 10;
+}
+.Isi-Menubar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link{
+  margin: 25px 10px 0px 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+}
+.nav-link:hover{
+  opacity: 0.5;
+}
+.JUDULATAS{
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.judulprofesi{
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+.button{
+  width: 212.41px;
+  height: 45.43px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+}
+.button:hover{
+  opacity: 0.8;
+  transform: scale(1.06);
+}
+.tentara-box{
+  width: 250px;
+  background-color: #D5FFDD;
+  border-radius: 20px;
+}
+.tentara-box p {
+  font-size: 14px;
+}
+.tentara-box .button{
+  background-color: #399349;
+}
+.tentara-box .button{
+  position: relative;
+  top: -100px;
+}
+.tentara-box .flex2{
+  gap: 0px;
+}
+.tentara-box .content{
+  position: relative;
+  top: 15px;
+}
+.fotografer-box{
+  width: 250px;
+  padding: 30px 0px;
+  background-color: #E2F2FF;
+  border-radius: 20px;
+}
+.fotografer-box .deskripsi{
+  text-align: center;
+  width: 60%;
+}
+.fotografer-box .button{
+  background-color: #3279AF;
+}
+.petani-box{
+  width: 250px;
+  height: 200px;
+  background-color: #FFF4DC;
+  border-radius: 20px;
+}
+.petani-box .gambar-petani{
+  position: relative;
+  top: 30px;
+}
+.petani-box .button{
+  background-color: #E29A00;
+  position: relative;
+  top: -50px;
+}
+.pramugari-box{
+  width: 250px;
+  height: 200px;
+  background-color: #FFCED7;
+  border-radius: 20px;
+}
+.pramugari-box .gambar-pramugari{
+  position: relative;
+  top: 30px;
+}
+.pramugari-box .button{
+  position: relative;
+  top: -50px;
+  background-color: #FF5573;
+}
+
+.kanan-atas{
+  width: 100%;
+  height: auto;
+}
+.dokter-box{
+  width: 250px;
+  height: 200px;
+  background-color: #E9E8E2;
+  border-radius: 20px;
+}
+.dokter-box .gambar-dokter{
+  width: 170px;
+  height: 170px;
+  position: relative;
+  top: 30px;
+}
+.dokter-box .judulprofesi{
+  display: none;
+}
+.dokter-box .button{
+  position: relative;
+  top: -50px;
+  background-color: #CAC8B3;
+}
+.pilot-box{
+  width: 250px;
+  height: 200px;
+  background-color: #E9E8E2;
+  border-radius: 20px;
+}
+.pilot-box .gambar-pilot{
+  width: 170px;
+  height: 170px;
+  position: relative;
+  top: 30px;
+}
+.pilot-box .judulprofesi{
+  display: none;
+}
+.pilot-box .button{
+  position: relative;
+  top: -50px;
+  background-color: #CAC8B3;
+}
+.ilmuan-box{
+  width: 250px;
+  height: 200px;
+  background-color: #E9E8E2;
+  border-radius: 20px;
+}
+.ilmuan-box .gambar-ilmuan{
+  width: 170px;
+  height: 170px;
+  position: relative;
+  top: 30px;
+}
+.ilmuan-box .judulprofesi{
+  display: none;
+}
+.ilmuan-box .button{
+  position: relative;
+  top: -50px;
+  background-color: #CAC8B3;
+}
+.astronout-box{
+  background-color: #8FC5ED;
+  border-radius: 20px;
+  width: 250px;
+  height: 200px;
+}
+.astronout-box .gambar-astronot{
+  width: 170px;
+  height: 170px;
+  position: relative;
+  top: 30px;
+}
+.astronout-box .judulprofesi{
+  display: none;
+}
+.astronout-box .button{
+  position: relative;
+  top: -50px;
+  background-color: #275E87;
+}
+.pembalap-box{
+  background-color: #FFDBC5;
+  border-radius: 20px;
+  width: 250px;
+  height: 200px;
+}
+.pembalap-box .gambar-pembalap{
+  width: 170px;
+  height: 170px;
+  position: relative;
+  top: 30px;
+}
+.pembalap-box .judulprofesi{
+  display: none;
+}
+.pembalap-box .button{
+  position: relative;
+  top: -50px;
+  background-color: #E36415;
+}
+@media(min-width: 425px) {
+  .container{
+    width: 80%;
+    padding: 70px 0px 90px 0px;
+  }
+  .tentara-box{
+    width: 289px;
+    height: 299px;
+  }
+  .tentara-box .content{
+    top: 1px;
+  }
+  .tentara-box .gambar-tentara{
+    position: relative;
+    top: -50px;
+  }
+  .tentara-box .profesi{
+    position: relative;
+    top: -45px;
+  }
+  .tentara-box .button{
+    position: absolute;
+    top: -80px;
+    margin-top: 30px;
+    width: 212.41px;
+    height: 45.43px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 15px;
+  }
+  .petani-box{
+    width: 288.53px;
+    height: 221px;
+  }
+  .petani-box .gambar-petani{
+    width: 213.26px;
+    height: 208.72px;
+    /* position: relative; */
+    top: 10px;
+  }
+  .petani-box .button{
+    margin-top: 1px;
+    width: 212.41px;
+    height: 45.43px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    top: -70px;
+  }
+  .pramugari-box{
+    width: 289px;
+    height: 239.85px;
+  }
+  .pramugari-box .gambar-pramugari{
+    width: 209.06px;
+    height: 226.53px;
+    position: relative;
+    top: 15px;
+  }
+  .pramugari-box .button{
+    margin-top: 1px;
+    width: 212.75px;
+    height: 49.3px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    top: -70px;
+  }
+  .fotografer-box{
+    margin-top: 70px;
+    width: 289px;
+    height: 314px;
+    padding: 0px 0px;
+  }
+  .fotografer-box .content{
+    position: relative;
+    bottom: 40px;
+  }
+  .fotografer-box .flex2{
+    gap: 5px;
+    align-items: center;
+  }
+  .fotografer-box .gambar-fotografer{
+    width: 230px;
+    height: 230px;
+  }
+  .fotografer-box .judulprofesi{
+    font-size: 24px;
+    text-align: center;
+  }
+  .fotografer-box .profesi{
+    position: relative;
+    top: 20px;
+  }
+  .fotografer-box .deskripsi{
+    font-size: 12px;
+    width: 60%;
+    line-height: 18px;
+  }
+  .fotografer-box .button{
+    position: absolute;
+    top: -80px;
+    margin-top: 30px;
+    width: 212.41px;
+    height: 45.43px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 15px;
+  }
+  .dokter-box{
+    width: 288.53px;
+    height: 221px;
+  }
+  .dokter-box .gambar-dokter{
+    width: 213px;
+    height: 213px;
+    position: relative;
+    top: 10px;
+  }
+  .dokter-box .button{
+    margin-top: 1px;
+    width: 212.41px;
+    height: 45.43px;
+    font-weight: 500;
+    font-size: 20px;
+    top: -70px;
+  }
+  .pilot-box{
+    width: 288.53px;
+    height: 221px;
+  }
+  .pilot-box .gambar-pilot{
+    width: 213px;
+    height: 213px;
+    top: 10px;
+  }
+  .pilot-box .button{
+    margin-top: 1px;
+    width: 212.42px;
+    height: 45.43px;
+    font-weight: 500;
+    font-size: 20px;
+    top: -70px;
+  }
+  .ilmuan-box{
+    width: 288.53px;
+    height: 221px;
+  }
+  .ilmuan-box .gambar-ilmuan{
+    width: 213px;
+    height: 213px;
+    top: 10px;
+  }
+  .ilmuan-box .button{
+    margin-top: 1px;
+    width: 212.41px;
+    height: 45.43px;
+    font-weight: 500;
+    font-size: 20px;
+    top: -70px;
+  }
+  .astronout-box{
+    width: 288.53px;
+    height: 221px;
+  }
+  .astronout-box .gambar-astronot{
+    width: 213.26px;
+    height: 208.72px;
+    position: relative;
+    top: 15px;
+  }
+  .astronout-box .button{
+    margin-top: 1px;
+    width: 212.41px;
+    height: 45.43px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    top: -65px;
+  }
+  .pembalap-box{
+    width: 288.53px;
+    height: 221px;
+  }
+  .pembalap-box .gambar-pembalap{
+    width: 213.26px;
+    height: 208.72px;
+    top: 15px;
+  }
+  .pembalap-box .button{
+    margin-top: 1px;
+    width: 212.41px;
+    height: 45.43px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    top: -65px;
+  }
+}
+@media(min-width: 1280px) {
+  .container{
+    padding: 50px 0px;
+  }
+  .flex2 {
+    flex-direction: column;
+  }
+  .flex1 {
+    flex-direction: row;
+  }
+  .JUDULATAS{
+    margin-top: 83px;
+    font-size: 40px;
+  }
+  .Bar{
+    position: fixed;
+    top: 1px;
+    height: 50px ;
+  }
+  .nav-link{
+    margin: 15px 10px 0px 10px;
+  }
+  .judulprofesi{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .tentara-box{
+    width: 490px;
+    height: 180px;
+  }
+  .tentara-box .flex2{
+    align-items: start;
+    gap: 5px;
+  }
+  .tentara-box .flex1{
+    gap: 1px;
+  }
+  .tentara-box .gambar-tentara{
+    top: -50px;
+  }
+  .tentara-box .profesi{
+    top: -30px;
+  }
+  .tentara-box .button{
+    position: static;
+    width: 240px;
+    height: 37px;
+  }
+  .petani-box{
+    width: 235px;
+    height: 180px;
+  }
+  .petani-box .gambar-petani{
+    width: 173.7px;
+    height: 170px;
+  }
+  .petani-box .button{
+    margin-top: 30px;
+    width: 173px;
+    height: 37px;
+    top: -90px;
+  }
+  .pramugari-box{
+    width: 235px;
+    height: 181px;
+  }
+  .pramugari-box .gambar-pramugari{
+    width: 170px;
+    height: 170px;
+    top: 10px;
+  }
+  .pramugari-box .button{
+    margin-top: 30px;
+    width: 173px;
+    height: 37px;
+    top: -90px;
+  }
+  .fotografer-box{
+    margin-top: 1px;
+    width: 230px;
+    height: 392px;
+  }
+  .fotografer-box .content{
+    margin-top: 30px;
+    position: static;
+    bottom: 0px;
+  }
+  .fotografer-box .flex2{
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .fotografer-box .gambar-fotografer{
+    width: 160px;
+    height: 160px;
+  }
+  .fotografer-box .judulprofesi{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .fotografer-box .button{
+    margin-top: 30px;
+    width: 173px;
+    height: 37px;
+    position: relative;
+    top: -20px;
+  }
+  .kanan-atas{
+    width: 500px;
+    height: 392px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  .kanan-atas .flex2{
+    gap: 20px;
+  }
+  .dokter-box{
+    width: 423px;
+    height: 96px;
+    background-color: #FFF;
+  }
+  .dokter-box .gambar-dokter{
+    width: 70px;
+    height: 70px;
+    top: -5px;
+  }
+  .dokter-box .judulprofesi{
+    display: block;
+  }
+  .dokter-box .flex2{
+    align-items: start;
+    gap: 5px;
+  }
+  .dokter-box .flex1{
+    gap: 10px;
+  }
+  .dokter-box .content{
+    position: relative;
+    top: 15px;
+    left: 20px;
+  }
+  .dokter-box .button{
+    width: 149px;
+    height: 22px;
+    border-radius: 10px;
+    background-color: #D8D6C1;
+    font-size: 12px;
+    color: #fff;
+    position: static;
+    top: 1px;
+  }
+  .dokter-box.judulprofesi{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .pilot-box{
+    width: 423px;
+    height: 96px;
+    background-color: #FFF;
+  }
+  .pilot-box .gambar-pilot{
+    width: 70px;
+    height: 70px;
+    top: -5px;
+  }
+  .pilot-box .judulprofesi{
+    display: block;
+  }
+  .pilot-box .flex2{
+    align-items: start;
+    gap: 5px;
+  }
+  .pilot-box .flex1{
+    gap: 10px;
+  }
+  .pilot-box .content{
+    position: relative;
+    top: 15px;
+    left: 20px;
+  }
+  .pilot-box .button{
+    width: 149px;
+    height: 22px;
+    border-radius: 10px;
+    background-color: #D8D6C1;
+    font-size: 12px;
+    color: #fff;
+    top: 1px;
+  }
+  .pilot-box .judulprofesi{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .ilmuan-box{
+    width: 423px;
+    height: 96px;
+    background-color: #FFF;
+  }
+  .ilmuan-box .gambar-ilmuan{
+    width: 70px;
+    height: 70px;
+    top: -5px;
+  }
+  .ilmuan-box .judulprofesi{
+    display: block;
+  }
+  .ilmuan-box .flex2{
+    align-items: start;
+    gap: 5px;
+  }
+  .ilmuan-box .flex1{
+    gap: 10px;
+  }
+  .ilmuan-box .content{
+    position: relative;
+    top: 15px;
+    left: 20px;
+  }
+  .ilmuan-box .button{
+    width: 149px;
+    height: 22px;
+    border-radius: 10px;
+    background-color: #D8D6C1;
+    font-size: 12px;
+    color: #fff;
+    top: 1px;
+  }
+  .ilmuan-box .judulprofesi{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .kanan-bawah{
+    width: 500px;
+    height: 181px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+  }
+  .kanan-bawah .flex1{
+    gap: 5px;
+  }
+  .kanan-bawah .content{
+    position: relative;
+    top: 10px;
+    left: 5px;
+  }
+  .astronout-box{
+    background-color: transparent;
+  }
+  .astronout-box .gambar-astronot{
+    width: 120px;
+    height: 120px;
+    top: 8px;
+  }
+  .astronout-box .judulprofesi{
+    display: block;
+  }
+  .astronout-box .judulprofesi{
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .astronout-box .profesi{
+    position: relative;
+    top: 15px;
+  }
+  .astronout-box .button{
+    width: 100px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #D8D6C1;
+    font-size: 15px;
+    color: #fff;
+    top: 1px;
+  }
+  .astronout-box .flex2{
+    align-items: start;
+    gap: 1px;
+  }
+  .astronout-box .flex1{
+    gap: 1px;
+  }
+  .pembalap-box{
+    background-color: transparent;
+  }
+  .pembalap-box .gambar-pembalap{
+    width: 120px;
+    height: 120px;
+    top: 8px;
+  }
+  .pembalap-box .judulprofesi{
+    display: block;
+  }
+  .pembalap-box .judulprofesi{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+  }
+  .pembalap-box .profesi{
+    position: relative;
+    top: 15px;
+  }
+  .pembalap-box .button{
+    width: 100px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #D8D6C1;
+    font-size: 15px;
+    color: #fff;
+    top: 1px;
+  }
+  .pembalap-box .flex2{
+    align-items: start;
+    gap: 1px;
+  }
+  .pembalap-box .flex1{
+    gap: 1px;
+  }
+}
